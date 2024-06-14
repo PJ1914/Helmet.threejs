@@ -20,7 +20,7 @@ light.position.set(5,5,5).normalize();
 scene.add(light);
 
 const loader=new GLTFLoader();
-loader.load('modules/DamagedHelmet.glb', function(gltf)
+loader.load('models/source/DamagedHelmet.glb', function(gltf)
 {
     scene.add(gltf.scene);
 }, undefined, function(error)
